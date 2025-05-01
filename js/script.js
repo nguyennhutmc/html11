@@ -1,5 +1,4 @@
 var vw = ($('html').css('font-size').replace('px', ''));
-
 //console.log(vw);
 function init() {
     if ($(".banner_main .swiper").length) {
@@ -16,25 +15,6 @@ function init() {
             },
             //autoplay:false,
         });
-    }
-    if ($(window).width() >= 992) {
-        let hideTimeout;
-        $('.nav-item.dropdown').hover(
-            function () {
-                clearTimeout(hideTimeout);
-                $(this).addClass('show');
-                $(this).find('.dropdown-toggle').addClass('show');
-                $(this).find('.dropdown-menu').addClass('show');
-            },
-            function () {
-                const $dropdown = $(this);
-                hideTimeout = setTimeout(function () {
-                    $dropdown.removeClass('show');
-                    $dropdown.find('.dropdown-toggle').removeClass('show');
-                    $dropdown.find('.dropdown-menu').removeClass('show');
-                }, 500);
-            }
-        );
     }
 }
 
