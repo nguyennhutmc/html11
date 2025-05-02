@@ -261,10 +261,12 @@ h3 {
 }
 footer .logo_xanh {
     width: 8.8125rem;
+    position:absolute;
+    bottom:100%;
 }
 footer {
     background: rgba(225, 228, 237, 0.30);
-    padding-top:calc(7.5rem*var(--ratio-section));
+    padding-top:calc(12.8125rem*var(--ratio-section));
     padding-bottom:calc(7.5rem*var(--ratio-section));
 }
 
