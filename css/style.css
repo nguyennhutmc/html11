@@ -96,8 +96,8 @@ h3 {
 
 .section1 {
     background: rgba(225, 228, 237, 0.30);
-    padding-top: 3.875rem;
-    padding-bottom: 3.875rem;
+    padding-top:calc(var(--ratio-section)*3.875rem);
+    padding-bottom:calc(3.875rem*var(--ratio-section));
 }
 
 .section1 h3{
@@ -105,7 +105,7 @@ h3 {
 }
 
 .hero2 {
-    height: 31.15381rem;
+    height:calc(31.15381rem*var(--ratio-section));
     background-image: url(../images/herobanner2.jpeg);
     background-position: top center;
 }
@@ -113,8 +113,8 @@ h3 {
     --bs-card-title-color:#00A75D;
 }
 .event-section {
-    padding-top: 9.875rem;
-    padding-bottom: 11.125rem;
+    padding-top:calc(9.875rem*var(--ratio-section));
+    padding-bottom:calc(11.125rem*var(--ratio-section));
 }
 
 .event-section .row {
@@ -178,8 +178,8 @@ h3 {
 
 .custom-section {
     background: rgba(225, 228, 237, 0.3);
-    padding-top: 5rem;
-    padding-bottom: 5rem;
+    padding-top:calc(5rem*var(--ratio-section));
+    padding-bottom:calc(5rem*var(--ratio-section));
 }
 
 .custom-section .logo_xanh {
@@ -207,8 +207,8 @@ h3 {
 }
 
 .gallery-section {
-    padding-top: 11.8125rem;
-    padding-bottom: 15rem;
+    padding-top:calc(11.8125rem*var(--ratio-section));
+    padding-bottom:calc(15rem*var(--ratio-section));
 }
 
 .gallery-section .row {
@@ -222,8 +222,8 @@ h3 {
 }
 
 .tintuc {
-    padding-top: 4.625rem;
-    padding-bottom: 13.125rem;
+    padding-top:calc(4.625rem*var(--ratio-section));
+    padding-bottom:calc(13.125rem*var(--ratio-section));
 }
 .tintuc .row{
     --bs-gutter-x:1.875rem;
@@ -274,8 +274,8 @@ footer .logo_xanh {
 }
 footer {
     background: rgba(225, 228, 237, 0.30);
-    padding-top: 7.5rem;
-    padding-bottom: 7.5rem;
+    padding-top:calc(7.5rem*var(--ratio-section));
+    padding-bottom:calc(7.5rem*var(--ratio-section));
 }
 
 .korotdong p {
@@ -286,6 +286,7 @@ footer {
 @media (max-width: 991.98px) {
     :root{
         --ratio:0.8888888888888889;
+        --ratio-section:.375;
     }
     .home_page:not(.sticky) .navbar {
         transform: translateY(1.25rem);
