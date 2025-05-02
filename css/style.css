@@ -286,7 +286,7 @@ footer {
 @media (max-width: 991.98px) {
     :root{
         --ratio:0.8888888888888889;
-        --ratio-section:.375;
+        --ratio-section:.5;
     }
     .home_page:not(.sticky) .navbar {
         transform: translateY(1.25rem);
