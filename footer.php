@@ -6,10 +6,10 @@
                     <p>Ein Projekt der Beschriebungstext. Rae si volecus impor alictis duntia comnim volupta et pliciti nverem quiscienet mo illiqu.</p>
                 </div>
                 <div class="col-lg-4 offset-lg-2 korotdong">
-                <p><b>Straße 50, 99999 Berlin</b></p>
-                    <p><b>Tel.: 00 000 000 000</b></p>
-                    <p><b>Fax: 00 000 000 000</b></p>
-                    <p><b>E-Mail: emailadresse@e-mail.de</b></p>
+                    <p>Straße 50, 99999 Berlin</p>
+                    <p>Tel.: 00 000 000 000</p>
+                    <p>Fax: 00 000 000 000</p>
+                    <p>E-Mail: emailadresse@e-mail.de</p>
                 </div>
                 <div class="col-lg-2 korotdong text-lg-end">
                     <p><a class="color-primary" href="#">Impressum</a></p>
