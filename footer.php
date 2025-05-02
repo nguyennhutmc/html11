@@ -1,6 +1,6 @@
 <footer>
 <div class="container">
-            <div class="row">
+            <div class="row g-4">
                 <div class="col-lg-4">
                     <img class="logo_xanh mb-3" src="images/logo_xanh.svg" alt="Footer Logo">
                     <p>Ein Projekt der Beschriebungstext. Rae si volecus impor alictis duntia comnim volupta et pliciti nverem quiscienet mo illiqu.</p>
