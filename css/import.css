@@ -2,6 +2,7 @@
 
 :root {
     --ratio:1;
+    --ratio-section:1;
     --color-primary:#00A75D;
     --bs-nav-link-font-size:calc(var(--ratio)*1rem);
     --bs-btn-font-size:calc(var(--ratio)*1rem);

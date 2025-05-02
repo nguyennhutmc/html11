@@ -301,6 +301,7 @@ footer {
 
     header .navbar-nav {
         gap: 1rem;
+        --bs-nav-link-padding-y: 0;
     }
 
     header .offcanvas {
@@ -310,6 +311,9 @@ footer {
 
     header .offcanvas-header .btn-close {
         background-position: left center;
+    }
+    .menu{
+        height:1.765rem;
     }
     .gallery-section .row {
         --bs-gutter-x: 0.625rem;

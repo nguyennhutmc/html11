@@ -12,14 +12,6 @@ function _sticky() {
         $("body").removeClass("sticky");
     }
 }
-$(window).load(function() {
-    
-    //   $('.gallery-section .row').masonry({
-    //     // options
-    //     itemSelector: '.grid-item',
-    //     //percentPosition: true
-    // });
-});
 $(function () {
     init();
 });

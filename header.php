@@ -18,7 +18,7 @@
                     <img class="logo_img" src="images/logo.svg" alt="">
                 </a>
                 <a class="m-0 p-0 lh-1 mb" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar">
-                    <i class="fas fa-bars fs-3 lh-1"></i>
+                    <img class="menu" src="images/menu.svg" alt="">
                 </a>
                 <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar">
                     <div class="offcanvas-header">
