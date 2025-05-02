@@ -41,7 +41,7 @@ header .navbar-nav {
 h2 {
     color: #00A75D;
     font-family: Inter;
-    font-size: 2.125rem;
+    font-size:calc(var(--ratio)*2.125rem);
     font-weight: 400;
     line-height: 129.412%;
 }
@@ -49,7 +49,7 @@ h2 {
 h3 {
     color: #00A75D;
     font-family: Inter;
-    font-size: 1.375rem;
+    font-size:calc(var(--ratio)*1.375rem);
     font-weight: 400;
     line-height: 127.273%;
 }
@@ -100,11 +100,8 @@ h3 {
     padding-bottom: 3.875rem;
 }
 
-.section1 h3,
-.section1 h2 {
+.section1 h3{
     color: #00A19A;
-    font-size: 1.375rem;
-    font-family: "Inter";
 }
 
 .hero2 {
@@ -112,7 +109,9 @@ h3 {
     background-image: url(../images/herobanner2.jpeg);
     background-position: top center;
 }
-
+.card{
+    --bs-card-title-color:#00A75D;
+}
 .event-section {
     padding-top: 9.875rem;
     padding-bottom: 11.125rem;
@@ -139,20 +138,14 @@ h3 {
 }
 
 .event-section .card-title {
-    font-family: "Inter";
-    font-size: 1.375rem;
-    font-weight: 400;
-    color: #00a75d;
     margin-bottom: 1.125rem;
-    line-height: 127.273%;
 }
 
 .event-section .card-text {
-    font-size: 1.125rem;
+    /* font-size: 1.125rem; */
 }
 
 .event-section h2.card-title {
-    font-size: 2.125rem;
     padding-right: 0;
 }
 
@@ -196,7 +189,6 @@ h3 {
 
 .custom-section h2 {
     font-family: "Inter";
-    font-size: 2.125rem;
     line-height: 1.2;
     font-weight: normal;
     color: #00a75d;
@@ -292,11 +284,18 @@ footer {
 }
 /* mobile */
 @media (max-width: 991.98px) {
-    header {}
-
+    :root{
+        --ratio:0.8888888888888889;
+    }
+    .home_page:not(.sticky) .navbar {
+        transform: translateY(1.25rem);
+    }
+    .logo_img{
+        height:2rem;
+    }
     header .navbar {
-        --bs-navbar-padding-y: 0.875rem;
-        --bs-nav-link-font-size: 0.875rem;
+        --bs-navbar-padding-y:.625rem;
+        --bs-nav-link-font-size:1rem;
     }
 
     header .navbar-nav {
@@ -311,7 +310,6 @@ footer {
     header .offcanvas-header .btn-close {
         background-position: left center;
     }
-
     .gallery-section .row {
         --bs-gutter-x: 0.625rem;
         --bs-gutter-y: 0.625rem;
