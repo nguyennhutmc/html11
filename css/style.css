@@ -155,7 +155,7 @@ h3 {
     font-weight: 400;
     display: block;
     margin-top: auto;
-    padding-top: 2rem;
+    padding-top:calc(2rem*var(--ratio));
     line-height: 1;
 }
 
@@ -327,6 +327,9 @@ footer {
     }
     .tintuc .card .mt-auto{
         font-size:0.875rem;
+    }
+    .event-section .seemore{
+        opacity:0;
     }
 }
 

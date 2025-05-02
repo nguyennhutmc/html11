@@ -80,7 +80,7 @@
    </section>
    <section class="custom-section">
       <div class="container">
-         <div class="row">
+         <div class="row gy-4">
             <div class="col-lg-6 col-left pe-lg-5">
                <div class="pe-lg-5">
                   <img class="logo_xanh" src="images/logo_xanh.svg" alt="">
