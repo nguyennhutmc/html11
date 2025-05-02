@@ -7,8 +7,8 @@
    </section>
    <section class="section1 text-center">
       <div class="container">
-         <h3>ON WATER | WasserWissen in Berlin</h3>
-         <p>lädt Wissenschaftler*innen ein, ihre Wasserforschung im Austausch
+         <h3 class="fw-semibold mb-1">ON WATER | WasserWissen in Berlin</h3>
+         <p>lädt Wissenschaftler*innen ein, ihre Wasserforschung im Austausch<br>
             mit der Gesellschaft zu diskutieren.
          </p>
          <p>Das Programm bringt Forscher*innen von Humboldt Universität, Technische Universität, Freie Universität sowie
@@ -84,7 +84,7 @@
             <div class="col-lg-6 col-left pe-lg-5">
                <div class="pe-lg-5">
                   <img class="logo_xanh" src="images/logo_xanh.svg" alt="">
-                  <h2>Du bist ein Teil von uns</h2>
+                  <h2 class="mb-3">Du bist ein Teil von uns</h2>
                   <p>Womit sollte sich die Wasserforschung befassen? Teile deine Ideen und Anregungen mit uns und werde Teil unserer Community! (max. 220 Zeichen)</p>
                </div>
             </div>
@@ -196,30 +196,30 @@
       </div>
       <div class="row g-0">
          <div class="col-lg-6 col-12">
-            <img class="img1" src="images/gallery-image1.jpeg" alt="">
+            <img class="img1 img" src="images/gallery-image1.jpeg" alt="">
          </div>
          <div class="col-lg-3 col-6">
             <div class="row">
-               <div class="col-12"><img class="img2" src="images/gallery-image2.jpeg" alt=""></div>
-               <div class="col-12"><img class="img3" src="images/gallery-image3.jpeg" alt=""></div>
+               <div class="col-12"><img class="img2 img" src="images/gallery-image2.jpeg" alt=""></div>
+               <div class="col-12"><img class="img3 img" src="images/gallery-image3.jpeg" alt=""></div>
             </div>
          </div>
          <div class="col-lg-3 col-6">
-            <img class="img4" src="images/gallery-image4.jpeg" alt="">
+            <img class="img4 img" src="images/gallery-image4.jpeg" alt="">
          </div>
          <div class="col-lg-5 col-12">
             <div class="row">
-               <div class="col-lg-12 col-12"><img class="img5" src="images/gallery-image5.jpeg" alt=""></div>
+               <div class="col-lg-12 col-12"><img class="img5 img" src="images/gallery-image5.jpeg" alt=""></div>
                <div class="col-lg-6 col-6">
-                  <img class="img6" src="images/gallery-image6.jpeg" alt="">   
+                  <img class="img6 img" src="images/gallery-image6.jpeg" alt="">   
                </div>
                <div class="col-lg-6 col-6">
-                  <img class="img7" src="images/gallery-image7.jpeg" alt="">
+                  <img class="img7 img" src="images/gallery-image7.jpeg" alt="">
                </div>
             </div>
          </div>
          <div class="col-lg-7 col-12">
-            <img class="img8" src="images/gallery-image8.jpeg" alt="">
+            <img class="img8 img" src="images/gallery-image8.jpeg" alt="">
          </div>
       </div>
    </section>

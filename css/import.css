@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Nunito:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&family=Nunito:wght@400;700&display=swap');
 
 :root {
     --ratio:1;
@@ -98,7 +98,7 @@ a,
 .btn,
 button,
 input {
-    cursor: pointer;
+    cursor:pointer;
     text-decoration: none;
     outline: none;
     box-shadow: none !important;
@@ -129,7 +129,7 @@ h5,
 h6 {
     margin: 0;
     padding: 0;
-    font-weight:normal;
+    font-weight:700;
     font-size: inherit;
     line-height: inherit;
 }
