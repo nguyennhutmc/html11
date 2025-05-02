@@ -343,7 +343,8 @@ footer {
 
     header .container,
     .hero1 .container,
-    .hero2 .container {
+    .hero2 .container,
+    footer .container{
         width: 60rem;
     }
 
