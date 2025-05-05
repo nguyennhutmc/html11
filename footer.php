@@ -2,7 +2,7 @@
 <div class="container">
             <div class="row g-4 g-lg-5">
                 <div class="col-lg-5 col-left position-relative pb-4">
-                    <img class="logo_xanh mb-lg-3" src="images/logo_xanh.svg" alt="Footer Logo">
+                    <img class="logo_xanh mb-3" src="images/logo_xanh.svg" alt="Footer Logo">
                     <p>Ein Projekt der Beschriebungstext. Rae si volecus impor alictis duntia comnim volupta et pliciti nverem quiscienet mo illiqu.</p>
                 </div>
                 <div class="col-lg-4 offset-lg-1 korotdong col-center">
