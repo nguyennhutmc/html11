@@ -3,7 +3,7 @@
 }
 
 .home_page:not(.sticky) .navbar {
-    transform: translateY(2.5rem);
+    top: 2.5rem;
 }
 
 .color-primary {
@@ -305,7 +305,7 @@ footer .col-left::after{
     }
 
     .home_page:not(.sticky) .navbar {
-        transform: translateY(1.25rem);
+        top:1.25rem;
     }
 
     .logo_img {
